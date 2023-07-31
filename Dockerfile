@@ -2,7 +2,7 @@
 FROM openjdk:17-slim
 
 # Environment variables
-ENV MC_VERSION="1.19.3" \
+ENV MC_VERSION="1.20.1" \
     PAPER_BUILD="latest" \
     MC_RAM="" \
     JAVA_OPTS=""
