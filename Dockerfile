@@ -1,8 +1,8 @@
 # JRE base
-FROM openjdk:17-slim
+FROM openjdk:21-slim
 
 # Environment variables
-ENV MC_VERSION="1.18.2" \
+ENV MC_VERSION="latest" \
     PAPER_BUILD="latest" \
     MC_RAM="" \
     JAVA_OPTS=""
